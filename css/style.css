@@ -117,7 +117,6 @@ footer{
     flex-direction: column;
     width: 49%;
     padding: 20px;
-    margin-left: 90px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -145,7 +144,7 @@ footer{
 }
 #img2{
     width: 850px;
-    height: 300px;
+    height: 200px;
     margin-top: 10px;
 }
 
@@ -225,6 +224,10 @@ a{
     width: 455px
 }
 
+.img3{
+    width: 100%;
+}
+
 @media (max-width:600px){
     h1{
         font-size: 40px;
@@ -246,7 +249,7 @@ a{
         width: 100%;
         font-size: 13px;
         flex-direction: column;
-        height: 170px;
+        height: 250px;
     }
     .suscribete h3{
         font-size: 30px;
@@ -277,7 +280,7 @@ a{
     }
     .todo p{
         font-size: 13px;
-
+        width: 100%;
     }
     .todo{
         flex-direction: column;
@@ -288,42 +291,44 @@ a{
     }
     .arriba{
         height: 90%;
-        width: 400px;
+        width: 100%;
         flex-wrap: nowrap;
+        justify-content: center;
     }
     .lado{
         height: 50%;
         width: 100%;
     }
     .nosotros{
-        width: 550px;
+        width: 100%;
     }
     .gris{
-        width: 550px;
+        width: 100%;
         padding: none;
         margin-top: none;
     }
     #img2{
-        width: 550px;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .ficha{
-        width: 550px;
+        width: 100%;
     }
     .lado2{
-        width: 550px;
-        margin-left: 13px;
+        width: 100%;
+
     }
     .form{
-        width: 550px;
+        width: 100%;
     }
     #contactoinput{
-        width: 550px;
+        width: 100%;
     }
     #mensaje{
-        width: 550px;
+        width: 100%;
     }
     #boton_mensaje{
-        width: 550px;
+        width: 100%;
     }
     .quehacemos{
         margin-bottom: 20px;
@@ -336,5 +341,15 @@ a{
         flex-direction: column;
         justify-content: space-evenly;
         height: 100px;
+    }
+    .img3{
+        display: flex;
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mapa{
+        width: 90%;
     }
 }
